@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Public\git\kicad\pitot.sch</source>
+    <date>2017/03/30 20:02:01</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pitot.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM7809CT</value>
+      <footprint>TO-220</footprint>
+      <libsource lib="regul" part="LM7809CT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCD646</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>LTC1144CN8#PBF</value>
+      <footprint>DIP794W53P254L1016H394Q8N</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/1144fa.pdf</datasheet>
+      <fields>
+        <field name="Description">LTC1144CN8#PBF, Charge Pump Step Down, -18  -2 V, 8-Pin, PDIP</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LTC1144CN8#PBF</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="RS Part Number">5455994</field>
+        <field name="Height">3.935</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTC1144CN8#PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCDD02</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CP</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCDE1B</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LT1167CN8PBF</value>
+      <footprint>DIP254P762X393-8</footprint>
+      <fields>
+        <field name="Description">Single Resistor Gain Programmable, Precision  Instrumentation Amplifier</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LT1167CN8PBF</field>
+        <field name="Supplier_Name">RS</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LT1167CN8PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCDE96</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCE0FB</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>DIL8</value>
+      <libsource lib="conn" part="DIL8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCE645</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>DEV-11114</value>
+      <footprint>DIPS1525W55P254L3325H1250Q24N</footprint>
+      <datasheet>https://www.sparkfun.com/products/11114</datasheet>
+      <fields>
+        <field name="Description">Arduino mini pro 3.3 volt 8Mhz</field>
+        <field name="Manufacturer_Name">SparkFun Electronics</field>
+        <field name="Manufacturer_Part_Number">DEV-11114</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="Height">12.5</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="DEV-11114"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCE760</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>LT1167CN8PBF</value>
+      <footprint>DIP254P762X393-8</footprint>
+      <fields>
+        <field name="Description">Single Resistor Gain Programmable, Precision  Instrumentation Amplifier</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LT1167CN8PBF</field>
+        <field name="Supplier_Name">RS</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LT1167CN8PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCF85F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCF865</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>DIL8</value>
+      <libsource lib="conn" part="DIL8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCF871</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>LT1167CN8PBF</value>
+      <footprint>DIP254P762X393-8</footprint>
+      <fields>
+        <field name="Description">Single Resistor Gain Programmable, Precision  Instrumentation Amplifier</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LT1167CN8PBF</field>
+        <field name="Supplier_Name">RS</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LT1167CN8PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCFBFE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCFC04</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>DIL8</value>
+      <libsource lib="conn" part="DIL8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCFC10</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD0E38</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CP</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD152B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="DEV-11114">
+      <description>Arduino mini pro 3.3 volt 8Mhz</description>
+      <docs>https://www.sparkfun.com/products/11114</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DEV-11114</field>
+        <field name="Footprint">DIPS1525W55P254L3325H1250Q24N</field>
+        <field name="Datasheet">https://www.sparkfun.com/products/11114</field>
+        <field name="Description">Arduino mini pro 3.3 volt 8Mhz</field>
+        <field name="Manufacturer_Name">SparkFun Electronics</field>
+        <field name="Manufacturer_Part_Number">DEV-11114</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="Height">12.5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX0" type="BiDi"/>
+        <pin num="2" name="RX1" type="BiDi"/>
+        <pin num="3" name="RST(1)" type="input"/>
+        <pin num="4" name="GND(1)" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="A0" type="BiDi"/>
+        <pin num="18" name="A1" type="BiDi"/>
+        <pin num="19" name="A2" type="BiDi"/>
+        <pin num="20" name="A3" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="RST(2)" type="input"/>
+        <pin num="23" name="GND(2)" type="power_in"/>
+        <pin num="24" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="DIL8">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">DIL8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LT1167CN8PBF">
+      <description>Single Resistor Gain Programmable, Precision  Instrumentation Amplifier</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LT1167CN8PBF</field>
+        <field name="Footprint">DIP254P762X393-8</field>
+        <field name="Description">Single Resistor Gain Programmable, Precision  Instrumentation Amplifier</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LT1167CN8PBF</field>
+        <field name="Supplier_Name">RS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RG" type="unspc"/>
+        <pin num="2" name="-IN" type="unspc"/>
+        <pin num="3" name="+IN" type="unspc"/>
+        <pin num="4" name="-VS" type="unspc"/>
+        <pin num="5" name="REF" type="unspc"/>
+        <pin num="6" name="OUTPUT" type="unspc"/>
+        <pin num="7" name="+VS" type="unspc"/>
+        <pin num="8" name="RG_2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LTC1144CN8#PBF">
+      <description>LTC1144CN8#PBF, Charge Pump Step Down, -18  -2 V, 8-Pin, PDIP</description>
+      <docs>http://cds.linear.com/docs/en/datasheet/1144fa.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LTC1144CN8#PBF</field>
+        <field name="Footprint">DIP794W53P254L1016H394Q8N</field>
+        <field name="Datasheet">http://cds.linear.com/docs/en/datasheet/1144fa.pdf</field>
+        <field name="Description">LTC1144CN8#PBF, Charge Pump Step Down, -18  -2 V, 8-Pin, PDIP</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LTC1144CN8#PBF</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="RS Part Number">5455994</field>
+        <field name="Height">3.935</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOST" type="unspc"/>
+        <pin num="2" name="CAP+" type="unspc"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CAP-" type="unspc"/>
+        <pin num="5" name="VOUT" type="output"/>
+        <pin num="6" name="~SHDN" type="unspc"/>
+        <pin num="7" name="OSC" type="unspc"/>
+        <pin num="8" name="V+" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:\Program Files\KiCad\share\kicad\library\SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="IC5" pin="21"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="3" name="Net-(IC3-Pad3)">
+      <node ref="P3" pin="2"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="4" name="Net-(IC3-Pad8)">
+      <node ref="R3" pin="1"/>
+      <node ref="IC3" pin="8"/>
+    </net>
+    <net code="5" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="IC3" pin="5"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="IC5" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC5" pin="23"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="7" name="Net-(IC1-Pad6)">
+      <node ref="IC5" pin="20"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="8" name="Net-(IC1-Pad8)">
+      <node ref="R1" pin="1"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(IC2-Pad6)">
+      <node ref="IC5" pin="19"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="12" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(IC2-Pad8)">
+      <node ref="R2" pin="1"/>
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="14" name="Net-(IC2-Pad3)">
+      <node ref="P2" pin="2"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="15" name="Net-(IC2-Pad2)">
+      <node ref="P2" pin="3"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="16" name="Net-(P1-Pad7)">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="17" name="Net-(P3-Pad7)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="18" name="Net-(P3-Pad6)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="19" name="Net-(P3-Pad5)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="20" name="Net-(P2-Pad8)">
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="21" name="Net-(P2-Pad7)">
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="22" name="Net-(P2-Pad6)">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="23" name="Net-(P2-Pad5)">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="24" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="25" name="Net-(P3-Pad8)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="26" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="27" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="28" name="Net-(IC4-Pad6)">
+      <node ref="IC4" pin="6"/>
+    </net>
+    <net code="29" name="Net-(IC4-Pad7)">
+      <node ref="IC4" pin="7"/>
+    </net>
+    <net code="30" name="Net-(IC4-Pad1)">
+      <node ref="IC4" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C2-Pad2)">
+      <node ref="IC4" pin="5"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="32" name="Net-(IC5-Pad22)">
+      <node ref="IC5" pin="22"/>
+    </net>
+    <net code="33" name="Net-(IC5-Pad17)">
+      <node ref="IC5" pin="17"/>
+    </net>
+    <net code="34" name="Net-(IC5-Pad16)">
+      <node ref="IC5" pin="16"/>
+    </net>
+    <net code="35" name="Net-(IC5-Pad15)">
+      <node ref="IC5" pin="15"/>
+    </net>
+    <net code="36" name="Net-(IC5-Pad14)">
+      <node ref="IC5" pin="14"/>
+    </net>
+    <net code="37" name="Net-(IC5-Pad13)">
+      <node ref="IC5" pin="13"/>
+    </net>
+    <net code="38" name="Net-(IC5-Pad12)">
+      <node ref="IC5" pin="12"/>
+    </net>
+    <net code="39" name="Net-(IC5-Pad11)">
+      <node ref="IC5" pin="11"/>
+    </net>
+    <net code="40" name="Net-(IC5-Pad10)">
+      <node ref="IC5" pin="10"/>
+    </net>
+    <net code="41" name="Net-(IC5-Pad9)">
+      <node ref="IC5" pin="9"/>
+    </net>
+    <net code="42" name="Net-(IC5-Pad8)">
+      <node ref="IC5" pin="8"/>
+    </net>
+    <net code="43" name="Net-(IC5-Pad7)">
+      <node ref="IC5" pin="7"/>
+    </net>
+    <net code="44" name="Net-(IC5-Pad6)">
+      <node ref="IC5" pin="6"/>
+    </net>
+    <net code="45" name="Net-(IC5-Pad5)">
+      <node ref="IC5" pin="5"/>
+    </net>
+    <net code="46" name="Net-(IC5-Pad3)">
+      <node ref="IC5" pin="3"/>
+    </net>
+    <net code="47" name="+BATT">
+      <node ref="U1" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="IC5" pin="24"/>
+    </net>
+    <net code="48" name="Net-(IC3-Pad6)">
+      <node ref="IC5" pin="18"/>
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="49" name="Net-(IC5-Pad1)">
+      <node ref="P4" pin="2"/>
+      <node ref="IC5" pin="1"/>
+    </net>
+    <net code="50" name="Net-(IC5-Pad2)">
+      <node ref="IC5" pin="2"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="51" name="Net-(IC1-Pad7)">
+      <node ref="U1" pin="3"/>
+      <node ref="IC4" pin="8"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="52" name="Net-(C1-Pad1)">
+      <node ref="IC4" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C1-Pad2)">
+      <node ref="IC4" pin="4"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="54" name="Net-(IC1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+  </nets>
+</export>
