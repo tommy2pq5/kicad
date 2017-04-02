@@ -920,8 +920,6 @@ F 3 "" H 6450 2550 50  0000 C CNN
 	1    6450 2550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6300 3850 6250 3850
 $Comp
 L R R11
 U 1 1 58E0B880
